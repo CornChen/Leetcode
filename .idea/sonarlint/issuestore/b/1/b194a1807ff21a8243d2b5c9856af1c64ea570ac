@@ -1,0 +1,12 @@
+
+X	java:S125"<This block of commented-out lines of code should be removed.(ƒÈæ8…ÅÐœÿ.
+>
+java:S1659"!Declare "sum" on a separate line.(ö÷‰ÿ8É¯ œÿ.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(îþ­Äúÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(ŒÁŒ»ÿÿÿÿÿ8å”Üœÿ.
+]	java:S125"<This block of commented-out lines of code should be removed.(Ã¹êÏÿÿÿÿÿ8ªöáœÿ.
+0
+java:S1220""Move this file to a named package.
+X	java:S125"<This block of commented-out lines of code should be removed.(ƒÈæ8…ÅÐœÿ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(µØ¢—8ç¢œœÿ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ôÍñšûÿÿÿÿ8·¬Òœÿ.

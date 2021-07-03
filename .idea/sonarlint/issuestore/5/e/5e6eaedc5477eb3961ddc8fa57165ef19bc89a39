@@ -1,0 +1,12 @@
+
+V
+java:S4973 "9Use the "equals" method if value comparison was intended.(¸ÏÛÏ8ÕšÇœ’/
+0
+java:S1220""Move this file to a named package.
+A
+java:S1659"Declare "j" on a separate line.(Šä¡¬şÿÿÿÿ8ÕšÇœ’/
+D
+java:S1659'""Declare "fast" on a separate line.(ş“•åÿÿÿÿÿ8Ç•«“”/
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‚ìıJ8éò€œ’/
+A
+java:S1659("$Declare "prepre" on a separate line.(ÔØ Å8ğ‹­“”/

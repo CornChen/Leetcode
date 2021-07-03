@@ -1,0 +1,8 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•æ¦Äıÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+V	java:S125"<This block of commented-out lines of code should be removed.( Ä¸øøÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(óœ»Úøÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(­ã¦ùÿÿÿÿ

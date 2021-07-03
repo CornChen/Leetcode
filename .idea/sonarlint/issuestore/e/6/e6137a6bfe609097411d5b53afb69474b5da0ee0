@@ -1,0 +1,12 @@
+
+0
+java:S1220""Move this file to a named package.
+M
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18ƒî¤‹/
+T	java:S106	"9Replace this use of System.out or System.err by a logger.(ÆÁØP8æÑ£½Š/
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8¥û«ˆ/
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8¹à¿ˆ/
+N
+java:S1128",Remove this unused import 'java.util.Deque'.(³Ã¯¥şÿÿÿÿ8ƒî¤‹/

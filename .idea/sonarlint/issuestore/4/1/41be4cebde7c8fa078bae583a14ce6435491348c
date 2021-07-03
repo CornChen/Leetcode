@@ -1,0 +1,8 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(»î›À8Â¡£ýŽ/
+Q
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8Ù®¬þŽ/
+0
+java:S1220""Move this file to a named package.
+X	java:S125""<This block of commented-out lines of code should be removed.(ÎÒŸý8š„•ª/
+]	java:S125%"<This block of commented-out lines of code should be removed.(ó£àþÿÿÿÿÿ8Œ²ÖþŽ/
