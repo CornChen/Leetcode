@@ -1,9 +1,0 @@
-
-0
-java:S1220""Move this file to a named package.
-m
-java:S1128"PRemove this unused import 'com.sun.java.swing.plaf.windows.WindowsTabbedPaneUI'.(ÐÃ×²8¡Ç±žˆ/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”“ƒÆ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(£´Ü ýÿÿÿÿ8öš°žˆ/
-R
-java:S1191"5Use classes from the Java API instead of Sun classes.(ÐÃ×²8¡Ç±žˆ/

@@ -1,0 +1,9 @@
+
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(„Œ¥³ÿÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+d
+java:S1128"IRemove this unused import 'com.sun.org.apache.bcel.internal.generic.RET'.(„Œ¥³ÿÿÿÿÿ
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(·Ü­üþÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(©¡„õøÿÿÿÿ

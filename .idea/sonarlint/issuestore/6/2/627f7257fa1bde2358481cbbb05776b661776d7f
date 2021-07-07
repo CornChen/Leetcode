@@ -1,8 +1,0 @@
-
-X	java:S125"<This block of commented-out lines of code should be removed.(®Ğ«8”˜Ìµ‚/
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ç¡ªÏıÿÿÿÿ
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Œ¼µµ‚/
-0
-java:S1220""Move this file to a named package.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ø˜Âá8òè£µ‚/

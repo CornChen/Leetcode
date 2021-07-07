@@ -1,0 +1,8 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÞØÂ
+9
+java:S1659"#Declare "right" on a separate line.(½§Óº
+7
+java:S1659"!Declare "mid" on a separate line.(½§Óº
+:
+java:S1659"$Declare "square" on a separate line.(½§Óº

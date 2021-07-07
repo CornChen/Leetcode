@@ -1,19 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¤é‹–8Şù™óş.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰ù´ùÿÿÿÿ8¶Ëêóş.
-U	java:S106
-"9Replace this use of System.out or System.err by a logger.(«õ±À8¶Ëêóş.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(öëŠÿÿÿÿÿ8¶Ëêóş.
-0
-java:S1220""Move this file to a named package.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(á¯„¿8¶Ëêóş.
-q
-java:S1128"ORemove this unused import 'java.nio.file.attribute.UserPrincipalLookupService'.(Í¶§Ñùÿÿÿÿ8°òàóş.
-T	java:S106"9Replace this use of System.out or System.err by a logger.(ÍÄÇ8¶Ëêóş.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¥åêèùÿÿÿÿ8È¸ìóş.
-U	java:S106	"9Replace this use of System.out or System.err by a logger.(¬õ¼ÿ8¶Ëêóş.
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìèı¹
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ªúA8¶Ëêóş.
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Áó¼°8È¸ìóş.
-X	java:S125"<This block of commented-out lines of code should be removed.(ñËòÇ8ÓâÎ›ÿ.
-X	java:S125"<This block of commented-out lines of code should be removed.(İ±¿8ÓâÎ›ÿ.
