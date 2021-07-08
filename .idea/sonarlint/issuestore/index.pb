@@ -17,14 +17,8 @@ K
 src/main/java/sql/Lc196.sql,4\7\47cf95acd0f8b2f2b7069232a17b3028d5e520e2
 K
 src/main/java/sql/Lc197.sql,3\b\3b1ee4033e23cc7a1b2b23a7b16f94f59fcdf6ad
-w
-G.idea/sonarlint/issuestore/1/a/1a5a9dd692b79c48aad86ed30a827818b295eb14,1\0\1090a062d6d65ae7c591d48502c24e1865ce5965
-w
-G.idea/sonarlint/issuestore/7/4/74ec2ed8babcf91e109c15d479ad9e5c4b8ca7f7,5\7\574dd68da96af0e13558f3d019d4641fa2656a35
 L
 src/main/java/easy/Demo.java,7\c\7c8c90a12d95223d7c76b7a95ec4975bb47cb55a
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 K
 src/main/java/easy/Lc1.java,7\0\707620e5181d82d449a9274368501b054100d23b
 K
