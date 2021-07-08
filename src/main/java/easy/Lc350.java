@@ -24,7 +24,7 @@ import java.util.*;
  */
 public class Lc350 {
     public static void main(String[] args) {
-        System.out.println(intersect(new int[]{4,9,5}, new int[]{9,4,9,8,4}));
+        System.out.println(Arrays.toString(intersect(new int[]{4, 9, 5}, new int[]{9, 4, 9, 8, 4})));
     }
     public static int[] intersect(int[] nums1, int[] nums2) {
         Map<Integer, Integer> map1 = new HashMap<>();
@@ -42,7 +42,7 @@ public class Lc350 {
             for (Integer key : map1.keySet()) {
                 // if (!map2.containsKey(key)) break;  另一个set中没有此key时应将此key移除
                 // if (!map2.containsKey(key)) map1.remove(key); 移除后应跳过后面步骤
-                if (!map2.containsKey(key)) map1.remove(key);
+                if (!map2.containsKey(key)) map1.put(key,0);
                 else {
                     if (map2.get(key) < map1.get(key)) map1.put(key, map2.get(key));
                     for(int i = 0; i < map1.get(key); i++) list.add(key);
@@ -52,7 +52,7 @@ public class Lc350 {
             for (Integer key : map2.keySet()) {
                 // if (!map1.containsKey(key)) break;  另一个set中没有此key时应将此key移除
                 // if (!map1.containsKey(key)) map2.remove(key); 移除后应跳过后面步骤
-                if (!map1.containsKey(key)) map2.remove(key);
+                if (!map1.containsKey(key)) map2.put(key, 0);
                 else {
                     if (map1.get(key) < map2.get(key)) map2.put(key, map1.get(key));
                     for (int i = 0; i < map2.get(key); i++) list.add(key);
@@ -60,5 +60,33 @@ public class Lc350 {
             }
         }
         return list.stream().mapToInt(Integer::valueOf).toArray();
+    }
+
+    public static int[] intersect2(int[] nums1, int[] nums2) {
+        // 灵性写法
+        if (nums1.length > nums2.length) {
+            return intersect(nums2, nums1);
+        }
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int num : nums1) {
+            // 少做一个判断
+            int count = map.getOrDefault(num, 0) + 1;
+            map.put(num, count);
+        }
+        int[] intersection = new int[nums1.length];
+        int index = 0;
+        for (int num : nums2) {
+            int count = map.getOrDefault(num, 0);
+            if (count > 0) {
+                intersection[index++] = num;
+                count--;
+                if (count > 0) {
+                    map.put(num, count);
+                } else {
+                    map.remove(num);
+                }
+            }
+        }
+        return Arrays.copyOfRange(intersection, 0, index);
     }
 }
