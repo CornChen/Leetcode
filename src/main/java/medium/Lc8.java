@@ -88,9 +88,7 @@ public class Lc8 {
 //            开始计数的终止条件：出现非数字字符
 //            if(!Character.isDigit(aChar)) return sum;  忘记加上符号位
             if(!Character.isDigit(aChar)) return isRight * sum;
-            if (Math.abs(sum) > Integer.MAX_VALUE / 10) {
-                return isRight == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-            } else if (Math.abs(sum) == Integer.MAX_VALUE / 10 && (aChar == '8' || aChar == '9')) {
+            if (Math.abs(sum) > Integer.MAX_VALUE / 10 || (Math.abs(sum) == Integer.MAX_VALUE / 10 && (aChar == '8' || aChar == '9'))) {
                 return isRight == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
             }
             if (Character.isDigit(aChar)) {
