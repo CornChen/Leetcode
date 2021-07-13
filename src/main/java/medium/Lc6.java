@@ -55,7 +55,7 @@ public class Lc6 {
             for(int line = 0; row + line < s_len; line += cyclen){
                 sb.append(s.charAt(row + line));
 //                if(row != 0 && row != numRows - 1 && cyclen - row < s_len) {
-//                    sb.append(s.charAt(cyclen - row));
+//                    sb.append(s.charAt(cyclen - row));                                                                                                                                                                                                                                                                                                                                                                                                                                                               
                 if(row != 0 && row != numRows - 1 && line + cyclen - row < s_len) {
                     sb.append(s.charAt(line + cyclen - row));
                 }

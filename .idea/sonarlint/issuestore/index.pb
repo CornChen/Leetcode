@@ -163,3 +163,12 @@ M
 src/main/java/easy/Lc383.java,1\4\14cc692b9e20e0d9d7812944002302cfab902d86
 M
 src/main/java/medium/Lc3.java,b\0\b05cf715dd7bbd074e63ad8f52005cafdca42eca
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+M
+src/main/java/medium/Lc5.java,2\2\229f85a7075d22ca7a4381f8f8bce5dfe173b946
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+M
+src/main/java/medium/Lc6.java,3\2\3201ddf54d7a75a567aa5d44687b721d205135e7

@@ -1,0 +1,8 @@
+
+]	java:S1259"<This block of commented-out lines of code should be removed.(ÚñÁêüÿÿÿÿ8§³¡¡©/
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(‰‡š‰8¹Èã©/
+>
+java:S1643U"Use a StringBuilder instead.(›à¨ÿÿÿÿÿ8®Ì½ ©/
+@
+java:S16595"#Declare "s_len" on a separate line.(šøĞ¼8ÜÓ…¡©/
+m	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šøĞ¼8ÜÓ…¡©/
