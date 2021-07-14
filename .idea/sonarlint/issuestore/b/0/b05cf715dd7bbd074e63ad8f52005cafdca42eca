@@ -1,12 +1,12 @@
 
-Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Γ’ύΫόÿÿÿÿ8„Τ™©/
-E
-java:S1659)"#Declare "right" on a separate line.(ΐγϋÿÿÿÿ8‰β²©/
 L
 java:S1481)"*Remove this unused "count" local variable.(ΐγϋÿÿÿÿ8¨©/
-E
-java:S1659)"#Declare "count" on a separate line.(ΐγϋÿÿÿÿ8΄φρ™©/
 L
 java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿΫφ΄8«ρ©/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Γ’ύΫόÿÿÿÿ8„Τ™©/
+E
+java:S1659)"#Declare "count" on a separate line.(ΐγϋÿÿÿÿ8΄φρ™©/
+E
+java:S1659)"#Declare "right" on a separate line.(ΐγϋÿÿÿÿ8‰β²©/
 C
 java:S1659)"!Declare "max" on a separate line.(ΐγϋÿÿÿÿ8ή’ς™©/

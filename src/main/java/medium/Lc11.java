@@ -22,7 +22,7 @@ import org.omg.Messaging.SYNC_WITH_TRANSPORT;
  * n = height.length
  * 2 <= n <= 3 * 104
  * 0 <= height[i] <= 3 * 104
- */
+ */ 
 public class Lc11 {
     public static void main(String[] args) {
         System.out.println(maxArea(new int[]{1,8,6,2,5,4,8,3,7}));

@@ -1,9 +1,9 @@
 
 >
-java:S1659:"!Declare "end" on a separate line.(šÀÃ¢8ãæóœ©/
-X	java:S125@"<This block of commented-out lines of code should be removed.(ÄÉÏû8·¾­©/
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(ô»Ñ°úÿÿÿÿ8¹ÇÕ›©/
-m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÄÖÆ8±ÏŠœ©/
->
 java:S1659:"!Declare "max" on a separate line.(šÀÃ¢8úÓ€©/
 ]	java:S125P"<This block of commented-out lines of code should be removed.(×ÊÀÍøÿÿÿÿ8ŠÙ©©/
+m	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìÄÖÆ8±ÏŠœ©/
+X	java:S125@"<This block of commented-out lines of code should be removed.(ÄÉÏû8·¾­©/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(ô»Ñ°úÿÿÿÿ8¹ÇÕ›©/
+>
+java:S1659:"!Declare "end" on a separate line.(šÀÃ¢8ãæóœ©/

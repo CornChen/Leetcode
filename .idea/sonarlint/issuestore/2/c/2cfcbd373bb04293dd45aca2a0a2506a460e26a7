@@ -1,12 +1,12 @@
 
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÅŞı
-v
-java:S2234D"[Parameters to intersect have the same names but not the same order as the method arguments.(Ú¨æÌúÿÿÿÿ
-J
-java:S28644"4Iterate over the "entrySet" instead of the "keySet".(ÛÑƒˆ
-O
-java:S2864*"4Iterate over the "entrySet" instead of the "keySet".(º¾¤Šûÿÿÿÿ
-V	java:S125+"<This block of commented-out lines of code should be removed.(öÚğ¨ÿÿÿÿÿ
 V	java:S1255"<This block of commented-out lines of code should be removed.(êÆäøÿÿÿÿ
 h
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.(×¾”
+J
+java:S28644"4Iterate over the "entrySet" instead of the "keySet".(ÛÑƒˆ
+v
+java:S2234D"[Parameters to intersect have the same names but not the same order as the method arguments.(Ú¨æÌúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅÅŞı
+O
+java:S2864*"4Iterate over the "entrySet" instead of the "keySet".(º¾¤Šûÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(öÚğ¨ÿÿÿÿÿ
