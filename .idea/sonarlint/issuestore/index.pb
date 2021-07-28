@@ -138,8 +138,6 @@ M
 M
 src/main/java/easy/Lc237.java,e\e\ee0ef9ff256a6f477fed342b849934b85b81a5ba
 M
-src/main/java/easy/Lc242.java,c\d\cd90f2fb45a3a6ab4adf7ce12a045bd3f23aa8a4
-M
 src/main/java/easy/Lc257.java,0\5\057ddc3db200cdc26639108ba075140adcf4e330
 M
 src/main/java/easy/Lc258.java,3\e\3e2c88c2ee7065cc992ceb174c65006d1b8ab0de

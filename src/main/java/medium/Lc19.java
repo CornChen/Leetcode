@@ -2,8 +2,6 @@ package medium;
 
 import easy.ListNode;
 
-import java.util.List;
-
 /** 删除链表的倒数第 N 个结点
  给你一个链表，删除链表的倒数第,n,个结点，并且返回链表的头结点。
  进阶：你能尝试使用一趟扫描实现吗？
@@ -25,6 +23,7 @@ import java.util.List;
  1 <= sz <= 30
  0 <= Node.val <= 100
  1 <= n <= sz
+ https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/solution/shan-chu-lian-biao-de-dao-shu-di-nge-jie-dian-b-61/
  */
 public class Lc19 {
     public static void main(String[] args) {
