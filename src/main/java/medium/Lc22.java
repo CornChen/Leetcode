@@ -1,5 +1,6 @@
 package medium;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /** 括号生成
@@ -14,13 +15,33 @@ import java.util.List;
 
  提示：
  1 <= n <= 8
+ https://leetcode-cn.com/problems/generate-parentheses/solution/gua-hao-sheng-cheng-by-leetcode-solution/
  */
 public class Lc22 {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(generateParenthesis(3));
     }
 
-    public List<String> generateParenthesis(int n) {
-        return null;
+    public static List<String> generateParenthesis(int n) {
+        List<String> res = new ArrayList<>();
+        backtrack(res, new StringBuilder(), 0, 0, n);
+        return res;
+    }
+
+    public static void backtrack(List<String> res, StringBuilder sb, int open, int close, int max){
+        if(sb.length() == max * 2){
+            res.add(sb.toString());
+            return;
+        }
+        if(open < max){
+            sb.append('(');
+            backtrack(res, sb, open+1, close, max);
+            sb.deleteCharAt(sb.length() - 1);
+        }
+        if(close < open){
+            sb.append(')');
+            backtrack(res, sb, open, close + 1, max);
+            sb.deleteCharAt(sb.length() - 1);
+        }
     }
 }
