@@ -34,6 +34,7 @@ import java.util.regex.Pattern;
  s可能为空，且只包含从a-z的小写字母。
  p可能为空，且只包含从a-z的小写字母，以及字符.和*。
  保证每次出现字符* 时，前面都匹配到有效的字符
+ https://leetcode-cn.com/problems/regular-expression-matching/solution/zheng-ze-biao-da-shi-pi-pei-by-leetcode-solution/
  */
 public class Lc10 {
     public static void main(String[] args) {
@@ -48,15 +49,10 @@ public class Lc10 {
         dp[0][0] = true;
         for(int i = 0; i <= m; ++i){
             for(int j = 1; j <= n; ++j){
-                if (p.charAt(j - 1) == '*') {
-                    dp[i][j] = dp[i][j - 2];
-                    if (matches(s, p, i, j - 1)) {
-                        dp[i][j] = dp[i][j] || dp[i - 1][j];
-                    }
-                } else {
-                    if (matches(s, p, i, j)) {
-                        dp[i][j] = dp[i - 1][j - 1];
-                    }
+                if(matches(s, p, i, j)) dp[i][j] = dp[i-1][j-1];
+                else if(p.charAt(j-1) == '*'){
+                    dp[i][j] = dp[i][j-2];
+                    if(matches(s, p, i, j-1)) dp[i][j] = dp[i][j] || dp[i-1][j];
                 }
             }
         }
