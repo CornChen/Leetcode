@@ -42,8 +42,6 @@ L
 L
 src/main/java/easy/Lc35.java,0\1\0175593df1838cb4c845bfbd61ff0b9f1516916f
 L
-src/main/java/easy/Lc38.java,c\3\c37aad411f401bd416719abf70b051dece84d029
-L
 src/main/java/easy/Lc53.java,6\c\6c475d34242815fdc33ee5514af6490e0a05d6f9
 L
 src/main/java/easy/Lc58.java,c\c\ccdd29b563811534f882dd2178db31de74f629e1
@@ -160,3 +158,7 @@ M
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+N
+src/main/java/medium/Lc21.java,7\6\767613b2e7babd87786c783b16722e60ce0eff41
+N
+src/main/java/medium/Lc22.java,2\5\25cae3d2636037a40181d9e67b57a44138b3d670

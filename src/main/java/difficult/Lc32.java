@@ -23,6 +23,8 @@ import java.util.Stack;
 提示：
 0 <= s.length <= 3 * 104
 s[i] 为 '(' 或 ')'
+
+ https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode-solution/
  */
 public class Lc32 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package easy;
+package medium;
 
 import java.nio.file.attribute.UserPrincipalLookupService;
 
