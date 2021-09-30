@@ -88,5 +88,4 @@ public class Lc36 {
         }
         return true;
     }
-
 }

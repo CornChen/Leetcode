@@ -1,8 +1,7 @@
 package medium;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.sql.Statement;
+import java.util.*;
 
 /** 组合总和 II
  * 给定一个数组'candidates'和一个目标数'target'，找出'candidates'中所有可以使数字和为'target'的组合。
@@ -31,6 +30,8 @@ import java.util.List;
  * 1 <='candidates.length <= 100
  * 1 <='candidates[i] <= 50
  * 1 <= target <= 30
+ *
+ * https://leetcode-cn.com/problems/combination-sum-ii/solution/hui-su-suan-fa-jian-zhi-python-dai-ma-java-dai-m-3/
  */
 public class Lc40 {
     public static void main(String[] args) {
@@ -39,31 +40,27 @@ public class Lc40 {
 
     public static List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<List<Integer>> res = new ArrayList<>();
+        int len = candidates.length;
+        if(len == 0) return res;
         Arrays.sort(candidates);
-        if (candidates[0] > target) return res;
-        int len = 0;
-        for (int i = candidates.length - 1; i >= 0; i--) {
-            if (candidates[i] > target) {
-                if (i > 1) len = i - 1;
-                else return res;
-            } else if (candidates[i] == target) {
-                List<Integer> tar = new ArrayList<>(target);
-                len = i - 1;
-                if (!res.contains(tar)) {
-                    res.add(tar);
-                }
-            }
-        }
-
-        int left = 0, right = len - 1;
-        while (left < right){
-            List<Integer> tmp = new ArrayList<>();
-            if(candidates[left] + candidates[right] == target) {
-                tmp.add(left);
-                tmp.add(right);
-            }
-        }
-
+        Deque<Integer> path = new ArrayDeque<>();
+        dfs(candidates, 0, target, len, path, res);
         return res;
+    }
+
+    private static void dfs(int[] candidates, int begin, int target, int len, Deque<Integer> path, List<List<Integer>> res){
+        if(target == 0) {
+            res.add(new ArrayList<>(path));
+            return;
+        }
+        for(int i = begin; i < len; i++){
+            if(target - candidates[i] < 0) break;
+//            剪掉同层级相同值的枝
+            if(i > begin && candidates[i] == candidates[i-1]) continue;
+            path.addLast(candidates[i]);
+//            dfs(candidates, i, target - candidates[i], len, path, res);
+            dfs(candidates, i + 1, target - candidates[i], len, path, res);
+            path.removeLast();
+        }
     }
 }
