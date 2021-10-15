@@ -1,0 +1,10 @@
+
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ëí
+>
+java:S1659#"#Declare "right" on a separate line.(Ï¶ì„ûÿÿÿÿ
+m
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¼êô­ûÿÿÿÿ
+V	java:S125("<This block of commented-out lines of code should be removed.(àÞå›þÿÿÿÿ
+Q	java:S125-"<This block of commented-out lines of code should be removed.(øó“º
+V	java:S125/"<This block of commented-out lines of code should be removed.(õï®™ÿÿÿÿÿ
+]	java:S1257"<This block of commented-out lines of code should be removed.(ÿ´“€üÿÿÿÿ8ô»½²Â/
